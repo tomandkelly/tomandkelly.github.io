@@ -1,0 +1,85 @@
+/* Ocean Colour Scheme
+	tan        #EFECCA
+	dark tan   #A7A37E
+	sand       #EFECCA
+	ocean      #046380
+	dark coral #002F2F
+*/
+
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+  padding: 0;
+	background: #EFECCA;
+}
+
+#navigation {
+	width: 100%;
+	background: #FFFFFF;
+}
+
+#navigation ul {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	list-style-type: none;
+	text-align: center;
+}
+
+#navigation ul li { 
+	display: inline;
+	padding=left: 20px;
+	padding-right: 20px;
+}
+
+#navigation ul li a {
+	text-decoration: none;
+	color: #046380;
+}
+
+#couple {
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#couple-text {
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+#couple-text h1 {
+	color: #046380;
+	font-family: 'Great Vibes', cursive;
+	font-size: 64px;
+}
+
+#couple-text p {
+	color: #046380;
+	font-size: 18px;
+}
+
+#bigday {
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: #002F2F;
+	text-align: center;
+}
+
+#bigday h2 {
+	color: #EFECCA;
+	font-family: 'Great Vibes', cursive;
+	font-size: 45px;
+}
+
+#bigday p {
+	padding-top: 20px;
+	color: #EFECCA;
+	font-size: 18px;
+}
