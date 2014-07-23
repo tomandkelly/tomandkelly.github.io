@@ -47,6 +47,12 @@ html, body {
 	padding-bottom: 60px;
 }
 
+img {
+	border-color: #A7A37E;
+	border-style: solid;
+	border-width: 10px;
+}
+
 #couple-text {
 	text-align: center;
 	padding-bottom: 60px;
