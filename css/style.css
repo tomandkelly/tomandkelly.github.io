@@ -12,15 +12,18 @@ html, body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
-    padding: 0;
-	background: #EFECCA;
+  padding: 0;
 	font-family: 'Oxygen', sans-serif;
+}
+
+body {
+  background: url(../img/sandbg.jpg) repeat 0 0;
 }
 
 #navigation {
 	width: 100%;
 	background: #FFFFFF;
-	height: 35px;
+	/*height: 35px;*/
 }
 
 #navigation ul {
@@ -31,10 +34,15 @@ html, body {
 	text-align: center;
 }
 
-#navigation ul li { 
+#navigation ul li {
 	display: inline;
 	padding-left: 25px;
 	padding-right: 25px;
+}
+
+.heart {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 #navigation ul li a {
@@ -94,7 +102,6 @@ img {
 	width: 100%;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: #EFECCA;
 	text-align: center;
 }
 
@@ -128,4 +135,92 @@ img {
 	padding-top: 20px;
 	color: #EFECCA;
 	font-size: 18px;
+}
+
+#resort a {
+  padding-top: 20px;
+	font-size: 18px;
+  text-decoration: none;
+  -o-transition: .7s;
+  -ms-transition: .7s;
+  -moz-transition: .7s;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#resort a:hover {
+  color: #EFECCA;
+}
+
+#excursions {
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+#excursions h2 {
+	color: #046380;
+	font-family: 'Great Vibes', cursive;
+	font-size: 45px;
+}
+
+#excursions h3 {
+	color: #046380;
+	font-family: 'Great Vibes', cursive;
+	font-size: 35px;
+}
+
+#excursions p {
+	padding-top: 20px;
+	color: #046380;
+	font-size: 18px;
+}
+
+#home {
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: #002F2F;
+	text-align: center;
+}
+
+#home h2 {
+	color: #EFECCA;
+	font-family: 'Great Vibes', cursive;
+	font-size: 45px;
+}
+
+#home p {
+	padding-top: 20px;
+	color: #EFECCA;
+	font-size: 18px;
+}
+
+.heart img {
+  border-style: none;
+  position: relative;
+}
+
+#footer {
+  background: #ffffff;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+#footer a {
+  color: #777777;
+  text-decoration: none;
+  
+  -o-transition: .7s;
+  -ms-transition: .7s;
+  -moz-transition: .7s;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#footer a:hover {
+  color: #046380;;
 }
